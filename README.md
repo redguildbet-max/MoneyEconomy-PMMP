@@ -1,2 +1,15 @@
-# MoneyEconomy-PMMP
-Start your economy with our MoneyEconomy plugin. What is MoneyEconomy anyway?  MoneyEconomy is a completely new plugin for your servers on PocketMine 5 or in simple words PMMP5. This plugin adds a new economic system to your server, as well as a system for administration, administrative teams, and its own API
+Start your economy with our MoneyEconomy plugin, but what is MoneyEconomy?
+
+MoneyEconomy is a brand new plugin for your PocketMine 5 servers, also known as PMMP5. This plugin adds a new economy system, administrative commands, and an API to your server.
+
+For plugin developers, we have created a small but powerful API.
+
+use MoneyEconomy\API\MoneyAPI;
+$balance = $moneyAPI->getBalance($player);
+$moneyAPI->transferMoney($from, $to, $amount);
+
+Also in order that the plugin starts you need such requirements as 
+
+PocketMine PMMP5 5.32.1
+Minecraft Bedrock 1.21.100 - 1.21.101
+FormAPI from jojoe77777
